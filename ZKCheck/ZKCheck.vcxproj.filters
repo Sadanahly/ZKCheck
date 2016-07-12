@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="errorlogger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zkcheckexecutor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zkcheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="astutils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdlineparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threadexecutor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="filelister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pathmatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="suppressions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="symboldatabase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tokenlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tokenize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valueflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="templatesimplifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkother.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkautovariables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkArraySize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkfuncparavoid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkswitchcondition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="errorlogger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zkcheckexecutor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zkcheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="valueflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="symboldatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="standards.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="suppressions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="preprocessor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="astutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threadexecutor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filelister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pathmatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="templatesimplifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineparser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkother.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkautovariables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkArraySize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkfuncparavoid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="checkswitchcondition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
